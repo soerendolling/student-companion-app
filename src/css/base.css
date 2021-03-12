@@ -18,19 +18,19 @@ body {
   grid-template-rows: [header] 60px [content] 600px;
   grid-template-columns: [left gutter] 30px [content] 315px [right gutter] 30px;
 }
-.body-header__image {
-  background-image: url(../screens/background_shape_1.svg);
-  background-color: blue;
-}
+
 .body-header {
-  grid-column: content;
+  grid-column: 1 / 4 ;
   grid-row: header;
   text-align: center;
+  background-image: url(../screens/background_shape_1.svg);
 }
+
+
 .main-content {
   display: flex;
   flex-direction: column;
-  overflow-y: scroll;
+  /* overflow-y: scroll; */
   grid-column: content;
   grid-row: content;
 }
