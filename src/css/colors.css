@@ -1,4 +1,5 @@
 :root {
-  --color-primary: springgreen;
-  --color-secondary: #2b2826;
+  --color-primary: #ffffff; /*general backgroung*/
+  --color-main-font: #193251; /*headlines, text*/
+  --color-labels: #7589a2; /*labels, untoggeld icons*/
 }
