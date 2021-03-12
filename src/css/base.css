@@ -16,14 +16,14 @@ body {
 .center-content {
   display: grid;
   grid-template-rows: [header] 60px [content] 600px;
-  grid-template-columns: 375px;
+  grid-template-columns: [left gutter] 30px [content] 315px [right gutter] 30px;
 }
 .body-header__image {
   background-image: url(../screens/background_shape_1.svg);
   background-color: blue;
-
 }
 .body-header {
+  grid-column: content;
   grid-row: header;
   text-align: center;
 }
@@ -31,12 +31,47 @@ body {
   display: flex;
   flex-direction: column;
   overflow-y: scroll;
+  grid-column: content;
   grid-row: content;
 }
 .main-content__buddy {
   display: flex;
   flex-direction: column;
+
+
 }
+
+.plus {
+  position: relative;
+}
+
+.team-block__plus {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 150px;
+  top: 48px;
+}
+
+
+
+.main-content__team {
+  display: flex;
+  flex-direction: column;
+}
+
+.team-block__name {
+  display: flex;
+  height: 58px;
+  width: 315px;
+  border: solid 1px black;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+
 /* .header-background { */
   /* background: url(../screens/background_shape_1.svg);
   background-size: 59px 375px;
