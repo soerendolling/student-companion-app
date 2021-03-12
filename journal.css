@@ -1,0 +1,33 @@
+
+
+
+.journal-frame
+
+{
+    padding:15px;
+    height: 347px;
+    width: 315px;
+    display:flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    background-color:ivory;
+    box-shadow: 0px 0px 2px 4.5px rgba(80, 80, 80, 0.25);
+    border-radius: 2%;
+    
+
+.frame-margin
+
+{
+margin-left:10px;
+}
+.frame-icon
+
+{
+    /* color and siye adjustable*/
+
+}
+.frame-para
+{
+    font-size: 120%;
+}
+
