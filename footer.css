@@ -1,0 +1,9 @@
+.footer-element{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.footer-icon{
+    font-size: 150%;
+    color: black;
+}
