@@ -12,7 +12,7 @@ body {
   font-family: ‘Open Sans’, sans-serif;
   background-color: var(--color-primary);
 }
-/**/
+
 .center-content {
   display: grid;
   grid-template-rows: [header] 60px [content] 600px;
@@ -37,23 +37,7 @@ body {
 .main-content__buddy {
   display: flex;
   flex-direction: column;
-
-
 }
-
-.plus {
-  position: relative;
-}
-
-.team-block__plus {
-  position: absolute;
-  width: 20px;
-  height: 20px;
-  left: 150px;
-  top: 48px;
-}
-
-
 
 .main-content__team {
   display: flex;
