@@ -8,6 +8,40 @@ html {
 }
 
 body {
-  font-size: 112.5%;
-  font-family: sans-serif;
+  font-size: 16px;
+  font-family: ‘Open Sans’, sans-serif;
+  background-color: var(--color-primary);
+}
+/**/
+.center-content {
+  display: grid;
+  grid-template-rows: [header] 60px [content] 600px;
+  grid-template-columns: 375px;
+}
+.body-header__image {
+  background-image: url(../screens/background_shape_1.svg);
+  background-color: blue;
+
+}
+.body-header {
+  grid-row: header;
+  text-align: center;
+}
+.main-content {
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  grid-row: content;
+}
+.main-content__buddy {
+  display: flex;
+  flex-direction: column;
+}
+/* .header-background { */
+  /* background: url(../screens/background_shape_1.svg);
+  background-size: 59px 375px;
+  display: block;
+  text-indent: -9999px;
+  height: 59px;
+  width: 375px; */
 }
