@@ -81,11 +81,11 @@
 #q-graph td {
   transition: all 0.3s ease;
 
-  &:hover {
+  /* &:hover {
     background-color: desaturate(#85144b, 100);
     opacity: 0.9;
     color: white;
-  }
+  } */
 }
 
 /*bars rechts*/
