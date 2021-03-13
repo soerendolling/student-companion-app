@@ -9,18 +9,31 @@
   box-shadow: 0px 0px 2px 4.5px rgba(80, 80, 80, 0.2);
   border-radius: 2%;
 
-  margin-left: 10px;
+  margin-left: 5px;
 }
 .frame-icon {
-  width: 25px;
-  height: 24px;
+  fill-opacity: 0;
+  width: 22px;
+  height: 22px;
+
+  
+}
+
+.frame-icon:hover
+{
+
+  fill-opacity: 1;
+}
+#symbols
+{
+  color: aqua;
 }
 .icon-box
 
 {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content:space-evenly;
 }
 
 .frame-para {
