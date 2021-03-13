@@ -1,0 +1,35 @@
+.main-content__energy-level {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.level-box {
+  display: flex;
+  height: 48px;
+  width: 315px;
+  border-radius: 6px;
+  justify-content: center;
+  align-items: center;
+  color: var(--color-font-box);
+}
+
+.level-100 {
+  background: var(--color-energy-100);
+  color: var(--color-primary);
+}
+
+.level-75 {
+  background: var(--color-energy-75);
+  color: var(--color-primary);
+}
+
+.level-50 {
+  background: var(--color-energy-50);
+  color: var(--color-energy-100);
+}
+
+.level-25 {
+  background: var(--color-energy-25);
+  color: var(--color-energy-100);
+}
