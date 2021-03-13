@@ -47,7 +47,7 @@
 } */
 
 .bar-chart {
-  width: 315px;
+  width: 300px;
   height: 208px;
   margin-bottom: 90px;
   margin-left: 30px;
@@ -86,10 +86,6 @@
     opacity: 0.9;
     color: white;
   }
-}
-
-.sent-font {
-  color: red;
 }
 
 /*bars rechts*/
