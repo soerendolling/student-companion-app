@@ -1,14 +1,17 @@
-.footer-element{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    background-color:beige;
-    border: 1px solid;
-    border-radius: 5%;
-    width: 140px;
-    height: 30px;
+.footer-element {
+  display: flex;
+  z-index: 100;
+  background-color: var(--color-primary);
+  position: absolute;
+  left: 17px;
+  top: 600px;
+  border-radius: 6px;
+  box-shadow: 0px 2px 11px 0px rgba(0, 0, 0, 0.25);
+  width: 335px;
+  height: 44px;
+  justify-content: space-around;
+  align-items: center;
 }
-.footer-icon{
-    font-size: 150%;
-    color: black;
+.footer-icon__navbar {
+  color: var(--color-main-font);
 }

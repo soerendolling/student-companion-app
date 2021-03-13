@@ -15,8 +15,7 @@ body {
 .center-content {
   display: grid;
   height: 100vh;
-  grid-template-rows: [header] 81px [content] 600px;
-  grid-template-columns: auto;
+  grid-template-rows: [header] 81px [content] auto;
 }
 
 .body-header {
@@ -24,6 +23,7 @@ body {
   text-align: center;
   background-image: url(../screens/background_shape_1.svg);
   background-size: cover;
+  position: relative;
 }
 
 .body-header__flex {
@@ -44,12 +44,12 @@ h1 {
 
 .main-content {
   display: flex;
+  z-index: 1;
   flex-direction: column;
   overflow-y: scroll;
-
   grid-row: content;
   padding: 0 30px;
-  align-items: center;
+  /* align-items: center; */
 }
 .main-content__buddy {
   display: flex;
@@ -59,6 +59,7 @@ h1 {
 .main-content__team {
   display: flex;
   flex-direction: column;
+  margin: 0;
 }
 
 .team-block__name {
