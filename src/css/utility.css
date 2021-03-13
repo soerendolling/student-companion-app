@@ -1,12 +1,12 @@
-.center-content {
+/* .center-content {
   display: flex;
   justify-content: center;
   align-items: center;
-}
+} */
 
-.height-100vh {
+/* .height-100vh {
   height: 100vh;
-}
+} */
 
 .bg-primary {
   background: var(--color-primary);
