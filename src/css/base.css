@@ -51,6 +51,13 @@ h1 {
   padding: 0 30px;
   /* align-items: center; */
 }
+.main-content-journal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  grid-row: content;
+  padding: 0 30px;
+}
 .main-content__buddy {
   display: flex;
   flex-direction: column;
