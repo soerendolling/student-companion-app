@@ -4,4 +4,8 @@
   --color-labels: #7589a2; /*labels, untoggeld icons*/
   --color-font-box: #7589a2;
   --color-box-border: #e0e4e8;
+  --color-energy-100: #ff5a36;
+  --color-energy-75: #ff9c86;
+  --color-energy-50: #ffbdaf;
+  --color-energy-25: #ffded7;
 }
