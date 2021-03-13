@@ -88,6 +88,10 @@
   }
 }
 
+.sent-font {
+  color: red;
+}
+
 /*bars rechts*/
 #q-graph thead tr {
   bottom: -30px;
@@ -100,30 +104,30 @@
 }
 #q-graph thead th.sent {
   top: 0;
-  left: 0;
+  left: 100px;
   line-height: 2;
 }
 #q-graph thead th.paid {
   top: 0;
-  left: 100px;
+  left: 0;
   line-height: 2;
 }
 
 #q-graph #q1 {
-  left: 15;
+  left: 20px;
 }
 #q-graph #q2 {
-  left: 50px;
+  left: 70px;
 }
 #q-graph #q3 {
-  left: 100px;
+  left: 120px;
 }
 #q-graph #q4 {
-  left: 150px;
+  left: 170px;
   border-right: none;
 }
 #q-graph #q5 {
-  left: 200px;
+  left: 220px;
   border-right: none;
 }
 #q-graph tbody th {
@@ -157,7 +161,7 @@
 
 #ticks {
   position: relative;
-  top: -185px;
+  top: -180px;
   left: 20px;
   /* width: 315px;
   height: 208px; */
@@ -169,7 +173,7 @@
 #ticks .tick {
   position: relative;
   border-bottom: 1px dotted #c4c4c4;
-  width: auto;
+  width: 260px;
 }
 
 #ticks .tick p {
