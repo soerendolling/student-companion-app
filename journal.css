@@ -1,0 +1,21 @@
+.journal-frame {
+  padding: 15px;
+  height: 347px;
+  width: 315px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: whitesmoke;
+  box-shadow: 0px 0px 2px 4.5px rgba(80, 80, 80, 0.2);
+  border-radius: 2%;
+
+  margin-left: 10px;
+}
+.frame-icon {
+  width: 25px;
+  height: 24px;
+}
+
+.frame-para {
+  font-size: 90%;
+}
