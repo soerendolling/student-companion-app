@@ -1,0 +1,6 @@
+:root {
+  --font-bold16: ‘Open Sans’ 16px bold; /* h1*/
+  --font-regular12: 12px; /* p unter h1 */
+  --font-semibold16: 16px; /* team-block__name */
+  --font-semibold14: 14px; /* journal notes text */
+}
