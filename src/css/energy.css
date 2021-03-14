@@ -95,15 +95,15 @@
   border-radius: 6px;
 }
 #q-graph thead td.you {
-  width: 4.5em;
+  width: 3.5em;
   top: 0;
   left: 100px;
   line-height: 2;
 }
 #q-graph thead td.other-students {
-  width: 8.5em;
+  width: 9em;
   top: 0;
-  left: 0;
+  left: -5px;
   line-height: 2;
 }
 
