@@ -53,6 +53,15 @@ h1 {
   gap: 10px;
   /* align-items: center; */
 }
+.main-content-journal {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  grid-row: content;
+  padding: 0 30px;
+  overflow-y: scroll;
+}
 .main-content__buddy {
   display: flex;
   flex-direction: column;
