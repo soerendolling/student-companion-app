@@ -17,6 +17,12 @@
     height: 30px;
      
   }
+
+  .date-input {
+    font-size: var(--font-semibold14);
+    font-weight: 600;
+    color: var(--color-main-font);
+  }
   
   .frame-icon-star:hover
   {
