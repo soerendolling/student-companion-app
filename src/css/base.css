@@ -15,7 +15,7 @@ body {
 .center-content {
   display: grid;
   height: 100vh;
-  grid-template-rows: [header] 81px [content] auto;
+  grid-template-rows: [header] 60px [content] auto;
 }
 
 .body-header {

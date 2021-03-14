@@ -1,11 +1,11 @@
-.journal-frame {
+.journal-frame-{
     padding: 15px;
     height:auto;
     width: auto;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    background-color: whitesmoke;
+    background-color: var(--color-primary);
    
     border-radius: 2%;
   
@@ -17,6 +17,8 @@
     height: 30px;
      
   }
+
+
   
   .frame-icon-star:hover
   {
