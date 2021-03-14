@@ -15,18 +15,16 @@ body {
 .center-content {
   display: grid;
   height: 100vh;
-  grid-template-rows: [header] 58.99px [content] auto;
+  grid-template-rows: [header] 81px [content] auto;
 }
 
 .body-header {
   grid-row: header;
   text-align: center;
-
   background-image: url(../screens/background_shape_1.svg);
   background-size: cover;
   fill: teal;
   position: relative;
-  height: min-content;
 }
 
 .body-header__flex {
@@ -35,15 +33,13 @@ body {
 }
 h1 {
   font-size: var(--font-bold16);
-  color: var(--color-main-font);
   margin: 0;
-  padding-top: 17.41px;
+  padding-top: 17px;
 }
 
 .body-header__flex-p {
-  font-size: 12px;
+  font-size: var(--font-regular12);
   color: var(--color-labels);
-  font-weight: 400;
   margin: 5px;
 }
 
@@ -98,7 +94,9 @@ h1 {
 
 .main-content__title {
   font-size: var(--font-semibold14);
-  color: var(--color-main-font);
   font-weight: 600px;
   line-height: 16px;
 }
+
+/*[left gutter] 30px
+[right gutter] 30px*/
