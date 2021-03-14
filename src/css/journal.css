@@ -25,27 +25,20 @@
 .journal-frame__motto {
   margin-top: 10px;
   margin-bottom: 0px;
-  font-size: var(--font-semibold16);
-  color: var(--color-main-font);
-  font-weight: 600;
 }
 .journal-frame__font {
-  font-size: var(--font-regular14);
+  font-size: var(--font-semibold14);
   color: var(--color-main-font);
-  font-weight: 400;
+  text-align: justify;
   margin: 10px 0 0 0;
 }
 .journal-frame__title-db {
   margin: 0;
   font: var(--font-semibold14);
-  color: var(--color-main-font);
-  font-weight: 600;
 }
 
 .journal-frame__title {
   font-size: var(--font-regular12);
-  color: var(--color-labels);
-  font-weight: 400;
   margin-top: 20px;
 }
 
