@@ -1,0 +1,180 @@
+.main-content__energy-level {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.level-box {
+  display: flex;
+  height: 48px;
+  width: 315px;
+  border-radius: 6px;
+  justify-content: center;
+  align-items: center;
+  color: var(--color-font-box);
+}
+
+.level-100 {
+  background: var(--color-energy-100);
+  color: var(--color-primary);
+}
+
+.level-75 {
+  background: var(--color-energy-75);
+  color: var(--color-primary);
+}
+
+.level-50 {
+  background: var(--color-energy-50);
+  color: var(--color-energy-100);
+}
+
+.level-25 {
+  background: var(--color-energy-25);
+  color: var(--color-energy-100);
+}
+
+/* html {
+  height: 100%;
+} */
+
+/* body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+} */
+
+.bar-chart {
+  width: 300px;
+  height: 208px;
+  margin-bottom: 90px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+#q-graph {
+  display: block; /* fixes layout wonkiness in FF1.5 */
+  position: relative;
+  width: 260px;
+  height: 202px;
+  margin: 1.1em 0 0;
+  padding: 0;
+  background: transparent;
+  font-size: 11px;
+}
+
+/*Uhrzeiten*/
+#q-graph tr,
+#q-graph th,
+#q-graph td {
+  position: absolute;
+  bottom: 0;
+  width: 55px;
+  z-index: 2;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+#q-graph td {
+  transition: all 0.3s ease;
+
+  /* &:hover {
+    background-color: desaturate(#85144b, 100);
+    opacity: 0.9;
+    color: white;
+  } */
+}
+
+/*bars rechts*/
+#q-graph thead tr {
+  bottom: -30px;
+  margin: -2.5em 0 0 5em;
+}
+#q-graph thead th {
+  width: 7.5em;
+  height: auto;
+  padding: 0.5em 1px;
+}
+#q-graph thead th.sent {
+  top: 0;
+  left: 100px;
+  line-height: 2;
+}
+#q-graph thead th.paid {
+  top: 0;
+  left: 0;
+  line-height: 2;
+}
+
+#q-graph #q1 {
+  left: 20px;
+}
+#q-graph #q2 {
+  left: 70px;
+}
+#q-graph #q3 {
+  left: 120px;
+}
+#q-graph #q4 {
+  left: 170px;
+  border-right: none;
+}
+#q-graph #q5 {
+  left: 220px;
+  border-right: none;
+}
+#q-graph tbody th {
+  bottom: -1.75em;
+  vertical-align: top;
+  font-weight: normal;
+  color: #333;
+}
+#q-graph .bar {
+  width: 12px;
+  border: 1px solid;
+  border-radius: 1em 1em 0 0;
+  border-bottom: none;
+  color: #000;
+}
+#q-graph .bar p {
+  margin: 5px 0 0;
+  padding: 0;
+  opacity: 0.4;
+}
+#q-graph .sent {
+  left: 13px;
+  background-color: var(--color-energy-100);
+  border-color: transparent;
+}
+#q-graph .paid {
+  left: 26px;
+  background-color: var(--color-main-font);
+  border-color: transparent;
+}
+
+#ticks {
+  position: relative;
+  top: -180px;
+  left: 20px;
+  /* width: 315px;
+  height: 208px; */
+  z-index: 1;
+  font-size: 10px;
+  font-family: 'fira-sans-2', Verdana, sans-serif;
+}
+
+#ticks .tick {
+  position: relative;
+  border-bottom: 1px dotted #c4c4c4;
+  width: 260px;
+}
+
+#ticks .tick p {
+  position: absolute;
+  left: -5em;
+  top: -0.8em;
+  margin: 0 0 0 0.5em;
+}

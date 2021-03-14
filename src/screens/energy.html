@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./favicon.svg" type="image/x-icon" />
+    <!-- link CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <title>Student Companion App</title>
+  </head>
+
+  <body class="center-content height-100vh bg-primary">
+    <header class="body-header">
+      <div class="body-header__image"></div>
+      <h1>ENERGY</h1>
+    </header>
+    <main class="main-content">
+      <div class="main-content__team">
+        <h2 class="main-content__title">Energy Level throughout the day</h2>
+        <div class="bar-chart">
+          <table id="q-graph">
+            <thead>
+              <tr>
+                <th class="sent">You</th>
+                <th class="paid">Other Students</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="qtr" id="q1">
+                <th scope="row">10:00</th>
+                <td class="sent bar" style="height: 175px"></td>
+                <td class="paid bar" style="height: 154px"></td>
+              </tr>
+              <tr class="qtr" id="q2">
+                <th scope="row">15:30</th>
+                <td class="sent bar" style="height: 131px"></td>
+                <td class="paid bar" style="height: 148px"></td>
+              </tr>
+              <tr class="qtr" id="q3">
+                <th scope="row">16:15</th>
+                <td class="sent bar" style="height: 157px"></td>
+                <td class="paid bar" style="height: 109px"></td>
+              </tr>
+              <tr class="qtr" id="q4">
+                <th scope="row">18:25</th>
+                <td class="sent bar" style="height: 75px"></td>
+                <td class="paid bar" style="height: 95px"></td>
+              </tr>
+              <tr class="qtr" id="q5">
+                <th scope="row">19:00</th>
+                <td class="sent bar" style="height: 47px"></td>
+                <td class="paid bar" style="height: 33px"></td>
+              </tr>
+            </tbody>
+          </table>
+          <div id="ticks">
+            <div class="tick" style="height: 45px"><p>100</p></div>
+            <div class="tick" style="height: 45px"><p>75</p></div>
+            <div class="tick" style="height: 45px"><p>50</p></div>
+            <div class="tick" style="height: 45px"><p>25</p></div>
+            <div class="tick" style="height: 0px"><p>0</p></div>
+          </div>
+        </div>
+      </div>
+      <div class="main-content__energy-level">
+        <h2 class="main-content__title">Rate your current energy level:</h2>
+        <div class="level-100 level-box">100%</div>
+        <div class="level-75 level-box">75%</div>
+        <div class="level-50 level-box">50%</div>
+        <div class="level-25 level-box">25%</div>
+      </div>
+      <nav class="center-content height-100vh bg-primary">
+        <!-- <div class="footer-grid"> -->
+        <div class="footer-element">
+          <!-- <div class="footer-icon"> -->
+          <img class="footer-icon__navbar" src="icons/DashboardIcon.svg" />
+          <img class="footer-icon__navbar" src="icons/BuddyIcon.svg" />
+          <img class="footer-icon__navbar" src="icons/TeamIcon.svg" />
+          <img class="footer-icon__navbar" src="icons/EnergyIcon.svg" />
+          <img class="footer-icon__navbar" src="icons/JournalIcon.svg" />
+        </div>
+        <!-- </div> -->
+        <!-- </div> -->
+      </nav>
+    </main>
+  </body>
+</html>
