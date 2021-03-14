@@ -80,33 +80,45 @@
 
 #q-graph td {
   transition: all 0.3s ease;
-
-  /* &:hover {
-    background-color: desaturate(#85144b, 100);
-    opacity: 0.9;
-    color: white;
-  } */
 }
 
 /*bars rechts*/
 #q-graph thead tr {
-  bottom: -30px;
-  margin: -2.5em 0 0 5em;
+  right: 60px;
+  bottom: -15px;
+  /* margin: 0 0 0 5em; */
 }
-#q-graph thead th {
-  width: 7.5em;
+#q-graph thead td {
+  /* width: 3.5em; */
   height: auto;
   padding: 0.5em 1px;
+  border-radius: 6px;
 }
-#q-graph thead th.sent {
+#q-graph thead td.you {
+  width: 4.5em;
   top: 0;
   left: 100px;
   line-height: 2;
 }
-#q-graph thead th.paid {
+#q-graph thead td.other-students {
+  width: 8.5em;
   top: 0;
   left: 0;
   line-height: 2;
+}
+
+.you-button {
+  background: var(--color-energy-25);
+  color: var(--color-energy-100);
+  border-radius: 6px;
+  font-size: var(--font-regular12);
+}
+
+.os-button {
+  background: var(--color-main-font);
+  color: var(--color-primary);
+  border-radius: 6px;
+  font-size: var(--font-regular12);
 }
 
 #q-graph #q1 {
@@ -159,8 +171,6 @@
   position: relative;
   top: -180px;
   left: 20px;
-  /* width: 315px;
-  height: 208px; */
   z-index: 1;
   font-size: 10px;
   font-family: 'fira-sans-2', Verdana, sans-serif;
