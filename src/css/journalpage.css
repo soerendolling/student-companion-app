@@ -1,129 +1,116 @@
-.journal-frame-{
-    padding: 15px;
-    height:auto;
-    width: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    background-color: var(--color-primary);
-   
-    border-radius: 2%;
-  
-    margin-left: 5px;
-  }
-  .frame-icon-star {
-    fill-opacity: 0;
-    width: 30px;
-    height: 30px;
-     
-  }
+.journal-frame- {
+  padding: 15px;
+  height: auto;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: var(--color-primary);
 
+  border-radius: 2%;
 
-  
-  .frame-icon-star:hover
-  {
-  
-    fill-opacity: 1;
-  }
-  #symbols
-  {
-    color: aqua;
-  }
-  .icon-box-star
-  
-  {
-    
-    left:15px;
-    height:45px;
-    width: 300px;
-    display: flex;
-    flex-direction: row;
-    justify-content:space-around;
-  }
-  .icon-box-square
-  
-  {
-    width: 300px;
-    height:45px;
-    display: flex;
-    flex-direction: row;
-    justify-content:space-between;
-  }
+  margin-left: 5px;
+}
+.frame-icon-star {
+  fill-opacity: 0;
+  width: 30px;
+  height: 30px;
+}
 
-  .image-square
-  {
-    height:22px;
-    width:22px;
+.frame-icon-star:hover {
+  fill-opacity: 1;
+}
+#symbols {
+  color: aqua;
+}
+.icon-box-star {
+  left: 15px;
+  height: 45px;
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.icon-box-square {
+  width: 300px;
+  height: 45px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.image-square {
+  height: 22px;
+  width: 22px;
+}
+
+.frame-para {
+  font-size: 80%;
+  margin-bottom: 20px;
+  height: 12px;
+}
+
+label,
+textarea {
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+}
+textarea {
+  padding: 10px;
+  line-height: 1.5;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+a.button1 {
+  width: 150px;
+  height: 45px;
+  display: inline-block;
+  padding: 14px;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 5%;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-weight: 300;
+  color: black;
+  text-align: center;
+  transition: all 0.5s;
+}
+a.button1:hover {
+  color: white;
+  background-color: #ff5a36;
+}
+@media all and (max-width: 30em) {
+   a.button1 {
+    display: block;
+    margin: 0.4em auto;
   }
-  
-  .frame-para {
-    font-size: 80%; 
-    margin-bottom: 20px;
-    height:12px;
+}
+
+a.button2 {
+  width: 150px;
+  height: 45px;
+  display: inline-block;
+  padding: 12px;
+  background-color: #ff5a36;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 5%;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-weight: 300;
+  color: black;
+  text-align: center;
+  transition: all 0.5s;
+}
+a.button2:hover {
+  color: white;
+  background-color: #ff5a36;
+}
+@media all and (max-width: 30em) {
+   a.button2 {
+    display: block;
+    margin: 0.4em auto;
   }
-  
-  label,
-  textarea {
-    font-size: 0.8rem;
-    letter-spacing: 1px;
-  }
-  textarea {
-    padding: 10px;
-    line-height: 1.5;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-  }
-  
-  a.button1{
-    width: 150px;
-    height: 45px;
-    display:inline-block;
-    padding:14px;
-    margin:0 0.3em 0.3em 0;
-    border-radius:5%;
-    box-sizing: border-box;
-    text-decoration:none;
-    font-family:sans-serif;
-    font-weight:300;
-    color:black;
-    text-align:center;
-    transition: all 0.5s;
-    }
-    a.button1:hover{
-    color:white;
-    background-color:#FF5A36;
-    }
-    @media all and (max-width:30em){
-     a.button1{
-    display:block;
-    margin:0.4em auto;
-     }
-    } 
-  
-    a.button2{
-        width: 150px;
-        height: 45px;
-        display:inline-block;
-        padding:12px;
-        background-color:#FF5A36;
-        margin:0 0.3em 0.3em 0;
-        border-radius:5%;
-        box-sizing: border-box;
-        text-decoration:none;
-        font-family:sans-serif;
-        font-weight:300;
-        color:black;
-        text-align:center;
-        transition: all 0.5s;
-        }
-        a.button2:hover{
-        color:white;
-        background-color:#FF5A36;
-        }
-        @media all and (max-width:30em){
-         a.button2{
-        display:block;
-        margin:0.4em auto;
-         }
-        } 
-      
+}
