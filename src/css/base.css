@@ -21,7 +21,7 @@ body {
 .body-header {
   grid-row: header;
   text-align: center;
-  background-image: url(../screens/background_shape_1.svg);
+  background-image: url(../background_shape_1.svg);
   background-size: cover;
   fill: teal;
   position: relative;
