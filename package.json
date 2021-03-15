@@ -3,8 +3,8 @@
   "version": "0.0.0",
   "scripts": {
     "dev": "vite serve src",
-    "build": "vite build",
-    "serve": "vite preview"
+    "build": "vite build src",
+    "serve": "vite preview src"
   },
   "devDependencies": {
     "vite": "^2.0.5"
